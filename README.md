@@ -35,7 +35,7 @@ import numpy as np
 # Create the original image with text
 img = np.zeros((350, 1400), dtype='uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img, 'Hariharan A', (15, 200), font, 5, (255), 10, cv2.LINE_AA)
+cv2.putText(img, 'MOUNESH P', (15, 200), font, 5, (255), 10, cv2.LINE_AA)
 small_img = cv2.resize(img, (700, 175))  # Resize dimensions as (width, height)
 cv2.imshow('Original Image', small_img)
 cv2.waitKey(0)
@@ -71,7 +71,7 @@ cv2.destroyAllWindows()
 
 
 ### Display the result of Closing
-![image](https://github.com/user-attachments/assets/84d7417c-a8bf-4a92-aa4e-fe10bc63b190)
+![WhatsApp Image 2024-11-13 at 15 31 21_530b7feb](https://github.com/user-attachments/assets/52a6f0a8-aaa9-4b9f-80b3-d4eb5c2f2df2)
 
 
 ## Result:
